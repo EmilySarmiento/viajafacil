@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViajaFácil.com</title>
+    <link rel="shortcut icon" href="./imagenes/icono_bus.ico">
+    <link rel="stylesheet" href="./styles/rutas_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <span><img src="./imagenes/logo_bus.svg" alt="logo_bus" class="bus_icon"></span>
+                <a href="index.html" class="button_index">
+                    ViajaFácil.com
+                </a>
+        </div>
+        <nav class="navigation_bar">
+            <ul>
+              <li><a href="rutas.html" title="Rutas" class="button_nav">Rutas</a></li>
+              <li><a href="empresas.html" title="Empresas" class="button_nav">Empresas</a></li>
+            </ul>
+        </nav>
+        <a href="usuario.html" class="button_user">
+            <img src="./imagenes/user.2.svg" alt="Usuario" class="user_icon">
+            Mi cuenta
+        </a>
+    </header>
+    <main>
+        <section>
+            <div class="body_title">
+                <div class="routes_title">
+                    <h1>RUTA[Nombre ciudad origen - destino]</h1>
+                </div>
+                <div class="routes_filter">
+                    <form action="#">
+                        <div class="recomendation">
+                            <label for="rutas">Filtrar por: </label>
+                            <select name="filtros" id="lang" class="form_filter">
+                                <option value="recomedados">Recomendados</option>
+                                <option value="menor_mayor">Precios de menor a mayor</option>
+                                <option value="mayor_menor">Precios de mayor a menor</option>
+                            </select>
+                        </div>
+                        <input type="submit" value="Filtrar" id="submit"/>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="routes_box">
+                <div class="information_box">
+                    <h2>[Nombre ciudad origen - destino]</h2>
+                    <p>Horario</p>
+                    <a href="info_empresa.html" alt="Empresa">Empresa</a>
+                </div>
+                <div class="prize_box">
+                    <h2>Precio</h2>
+                    <p>$0.0</p>
+                </div>
+            </div>
+            <div class="routes_box">
+                <div class="information_box">
+                    <h2>[Nombre ciudad origen - destino]</h2>
+                    <p>Horario</p>
+                    <a href="info_empresa.html" alt="Empresa">Empresa</a>
+                </div>
+                <div class="prize_box">
+                    <h2>Precio</h2>
+                    <p>$0.0</p>
+                </div>
+            </div>
+            <div class="routes_box">
+                <div class="information_box">
+                    <h2>[Nombre ciudad origen - destino]</h2>
+                    <p>Horario</p>
+                    <a href="info_empresa.html" alt="Empresa">Empresa</a>
+                </div>
+                <div class="prize_box">
+                    <h2>Precio</h2>
+                    <p>$0.0</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer style="background-color: rgb(239, 173, 128);">
+        <div class="credits">
+            <p>Página realizada por Emily Sarmiento Penagos.2023 - Girardot, Colombia</p>
+            <div class="logo_final">
+                <span>
+                    <img src="./imagenes/logo_bus.svg" alt="logo" height="30" width="30">
+                </span>   
+                <p>ViajaFácil.com</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViajaFácil.com</title>
+    <link rel="shortcut icon" href="./imagenes/icono_bus.ico">
+    <link rel="stylesheet" href="./styles/index_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <span><img src="./imagenes/logo_bus.svg" alt="logo_bus" class="bus_icon"></span>
+                <a href="index.html" class="button_index">
+                    ViajaFácil.com
+                </a>
+        </div>
+        <nav class="navigation_bar">
+            <ul>
+              <li><a href="rutas.html" title="Rutas" class="button_nav">Rutas</a></li>
+              <li><a href="empresas.html" title="Empresas" class="button_nav">Empresas</a></li>
+            </ul>
+        </nav>
+        <a href="usuario.html" class="button_user">
+            <img src="./imagenes/user.2.svg" alt="Usuario" class="user_icon">
+            Mi cuenta
+        </a>
+    </header>
+    <main>
+        <section id="container_trip">
+            <form action="#">
+                <div class="information">
+                    <div class="trip_information">
+                        <input type="text"
+                        id="departure"
+                        name="departure"
+                        placeholder="Ingrese la ciudad de origen">
+                    </div>
+                    <div class="trip_information">
+                        <input type="image" src="./imagenes/arrow.change.svg" alt="Cambiar" height="30" width="30" id="arrows">
+                    </div>
+                    <div class="trip_information">
+                        <input type="text"
+                            id="arrival"
+                            name="arrival"
+                            placeholder="Ingrese la ciudad de llegada">
+                    </div>
+                    <div class="trip_information_date">
+                        <div class="trip_information_fecha">
+                        <label for="fecha" id="fecha">Fecha de viaje:</label>
+                        <input type="date" 
+                            name="fechaviaje" 
+                            id="date">
+                        </div>
+                    </div>
+                </div>
+                <div class="submit_button">
+                    <input type="submit" 
+                        value="Buscar" 
+                        id="submit">
+                </div>
+            </form>
+            
+        </section>
+        <section id="conteiner_ads">
+            <div class="frame_ads_1">
+                <div class="frame_ads">
+                    <img src="./imagenes/anunciogirardot.svg" alt="Reinado nacional del turismo" height="300" width="300">
+                    <div class="text">
+                        <a href="https://www.girardot-cundinamarca.gov.co/SenoritaGdot2022/default.aspx" title="info">Conoce más AQUÍ</a>
+                    </div>
+                </div>
+                <div class="frame_ads">
+                    <img src="./imagenes/anunciotocaima.svg" alt="Tocaima Neon night" height="300" width="300">
+                    <div class="text">
+                        <a href="https://www.facebook.com/AlcaldiaDeTocaima/photos/a.313084248819789/4481593008635538/?paipv=0&eav=AfYo6nY-GI7hxIXsVEVflesBHrLywRlPVRbHdT8i_hdR-9AjfmiM1_TRmqshY61i-Xk&_rdr" title="info">Conoce más AQUÍ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="frame_ads_2">
+                <div class="frame_ads">
+                    <img src="./imagenes/anunciofusa.svg" alt="Reinado nacional del turismo" height="300" width="300">
+                    <div class="text">
+                        <a href="https://www.noticiasdiaadia.com/fusagasuga-cundinamarca-listo-inicio-de-expofusa-2022/#:~:text=La%20feria%20ser%C3%A1%20desarrollada%20entre,masivas%20y%20abiertas%20al%20p%C3%BAblico." title="info">Conoce más AQUÍ</a>
+                    </div>
+                </div>
+                <div class="frame_ads_video">
+                    <div class="video_frame">
+                        <iframe src="https://www.youtube.com/embed/YF_3acS2TKU" height="300" width="300" title="Carmen de Apicalá" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="text">
+                        <a href="https://www.elnuevodia.com.co/nuevodia/especiales/generales/470750-carmen-de-apicala-la-ciudad-milagrosa-del-tolima" title="info">Conoce más AQUÍ</a>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer style="background-color: rgb(239, 173, 128);">
+        <div class="credits">
+            <p>Página realizada por Emily Sarmiento Penagos.2023 - Girardot, Colombia</p>
+            <div class="logo_final">
+                <span>
+                    <img src="./imagenes/logo_bus.svg" alt="logo" height="30" width="30">
+                </span>   
+                <p>ViajaFácil.com</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
